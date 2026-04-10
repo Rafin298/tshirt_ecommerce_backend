@@ -1,11 +1,165 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
+# Byte-compiled / optimized / DLL files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# C extensions
+
+*.so
+
+# Distribution / packaging
+
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 wheels/
-*.egg-info
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # Virtual environments
-.venv
-.vscode
+
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# uv package manager
+
+.uv/
+.uv-cache/
+
+# Installer logs
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Django stuff
+
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Static files collected by collectstatic
+
+staticfiles/
+
+# Migrations (optional - keep if team project)
+
+# */migrations/*
+
+# !*/migrations/**init**.py
+
+# Environment variables
+
+.env
+.env.local
+.env.*.local
+
+# IDE
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Node
+
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Docker
+
+*.pid
+*.seed
+*.pid.lock
+
+# PyCharm
+
+*.iml
+
+# mypy
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff / lint
+
+.ruff_cache/
+
+# pytest
+
+.pytest_cache/
+
+# coverage
+
+coverage/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints
+
+# Celery
+
+celerybeat-schedule
+
+# Sentry
+
+.sentryclirc
+
+# dotenv
+
+*.env
+
+# backup files
+
+*.bak
+*.tmp
+
+# Mac
+
+.AppleDouble
+.LSOverride
+
+# logs
+
+logs/
+*.log
